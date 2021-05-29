@@ -171,8 +171,7 @@ hr {
 }
 .tm-portfolio .container {
   width: 100%;
-  padding: 0;
-  margin: 0;
+  margin: 50px;
 }
 .tm-portfolio .col-md-3,
  .tm-portfolio .col-sm-3 {
@@ -381,6 +380,9 @@ hr {
 	position: absolute;
 	left: 0;
 	bottom: 0;
+}
+.skill-content li {
+	padding-bottom: 10px;
 }
 /* END RESUME */
 
@@ -1138,6 +1140,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	left: 0;
 	bottom: 0;
 }
+#resume .timeline-content li{
+	padding-bottom: 10px;
+}
 .grey-section {
 	background: #ebebeb;
 }
@@ -1252,7 +1257,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	}
 	#resume .timeline-header, #resume .timeline-content {
 		padding-left: 7rem;
+		padding-right: 7rem;
 	}
+	#skills h2, #skills .skill-content{
+		padding-right: 7rem;
+		padding-left: 7rem;
 }
 @media only screen and (max-width:480px) {
 	#resume .resume-header h2 {
@@ -1270,6 +1279,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 		font-size: 1.5rem;
 	}
 	#resume .timeline-header, #resume .timeline-content {
+		padding-left: 5.5rem;
+		padding-right: 5.5rem;
+	}
+	#skills h2, #skills .skill-content{
+		padding-right: 5.5rem;
 		padding-left: 5.5rem;
 	}
 }
